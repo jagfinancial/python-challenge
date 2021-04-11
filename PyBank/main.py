@@ -73,7 +73,7 @@ with open(file_name, newline = '') as csvfile:
 
 
 #Analysis Files
-	Pybank = open("analysis.txt","w+")
+	Pybank = open('Analysis/analysis.txt',"w+")
 	Pybank.write("Financial Analysis")
 	Pybank.write('\n' + "Total Months " + str(total_months))
 	Pybank.write('\n' + "Total Amount $" + str(total_profit_loss))
